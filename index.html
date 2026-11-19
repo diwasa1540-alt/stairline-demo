@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STAIRLINE Urban Engineering</title>
+<meta name="description" content="STAIRLINE — Urban Engineering. 都市の階段から始まる、明るい前進のためのランニングシューズ。">
+<meta property="og:title" content="STAIRLINE — Make It Iconic">
+<meta property="og:description" content="Built for a brighter way forward. Urban Engineering.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <a class="wordmark" href="#top" aria-label="STAIRLINE トップへ">STAIRLINE<sup>®</sup></a>
+  <nav class="nav-links" aria-label="メインナビゲーション">
+    <a href="#lineup">Shoes</a>
+    <a href="#technology">Technology</a>
+    <a href="#configure">Configure</a>
+    <a href="#lab">Lab</a>
+    <a href="#stories">Stories</a>
+  </nav>
+  <div class="nav-actions">
+    <span class="nav-loc mono">ZRH 47.37°N</span>
+    <button class="cart-btn" id="cart-open" aria-label="カートを開く">
+      Cart <span class="cart-count" id="cart-count">0</span>
+    </button>
+    <button class="menu-btn" id="menu-btn" aria-label="メニュー" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Urban Engineering</p>
+    <h1 class="hero-title">
+      <span class="line"><span>Make it</span></span>
+      <span class="line"><span>Iconic</span></span>
+    </h1>
+    <p class="hero-sub tracked">Built for a brighter<br>way forward</p>
+    <p class="hero-lede">一段目を踏み込んだ瞬間から、街は練習場になる。<br>チューリッヒで設計された HEX LATTICE ソールが、硬いコンクリートの衝撃を前へ進む力に変える。</p>
+    <div class="hero-ctas">
+      <a href="#configure" class="btn btn-solid magnetic">RISE を選ぶ <span aria-hidden="true">→</span></a>
+      <a href="#technology" class="btn btn-ghost magnetic">テクノロジーを見る</a>
+    </div>
+    <dl class="hero-specs mono">
+      <div><dt>Weight</dt><dd>285 g</dd></div>
+      <div><dt>Drop</dt><dd>8 mm</dd></div>
+      <div><dt>Stack</dt><dd>32 / 24</dd></div>
+      <div><dt>Cells</dt><dd>38</dd></div>
+    </dl>
+  </div>
+  <figure class="hero-media" id="hero-media">
+    <img src="assets/hero.jpg" alt="コンクリートの階段を駆け上がるランナーの足元。黒いスニーカー。" width="594" height="1088">
+    <figcaption class="mono">
+      <span>RISE / OBSIDIAN</span>
+      <span>FW26 — 001</span>
+    </figcaption>
+    <div class="hero-tag mono" aria-hidden="true">
+      <span class="dot"></span> HEX LATTICE OUTSOLE
+    </div>
+  </figure>
+</section>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Urban Engineering</span><i>⬡</i><span>Make it Iconic</span><i>⬡</i><span>Zürich — Tokyo</span><i>⬡</i><span>Built for a brighter way forward</span><i>⬡</i>
+    <span>Urban Engineering</span><i>⬡</i><span>Make it Iconic</span><i>⬡</i><span>Zürich — Tokyo</span><i>⬡</i><span>Built for a brighter way forward</span><i>⬡</i>
+  </div>
+</div>
+
+<!-- ================= MANIFESTO ================= -->
+<section class="manifesto" id="manifesto">
+  <p class="section-index mono">01 — Manifesto</p>
+  <p class="manifesto-text" id="manifesto-text">The city is not in your way. Every stair is a rep. Every curb is a launch. We engineer the space between your foot and the concrete, so the only thing left is forward.</p>
+  <p class="manifesto-jp">街は障害物じゃない。階段は一回ごとのトレーニング、縁石は踏み切り台。<br>私たちが設計するのは、足とコンクリートのあいだの数ミリ。残るのは、前へ進むことだけ。</p>
+</section>
+
+<!-- ================= LINEUP ================= -->
+<section class="lineup" id="lineup">
+  <div class="section-head">
+    <p class="section-index mono">02 — Lineup FW26</p>
+    <h2 class="display">Four ways<br>forward</h2>
+    <p class="section-lede">同じ HEX LATTICE プラットフォームから、走る場所に合わせて4つのモデルを設計。</p>
+  </div>
+  <div class="lineup-grid" id="lineup-grid"><!-- rendered by app.js --></div>
+</section>
+
+<!-- ================= TECHNOLOGY ================= -->
+<section class="tech" id="technology">
+  <div class="section-head">
+    <p class="section-index mono">03 — Technology</p>
+    <h2 class="display">HEX LATTICE</h2>
+    <p class="section-lede">38個の六角セルが、それぞれ独立して潰れ、独立して戻る。着地の衝撃は一点に集まらず、ハニカム全体に分散してから推進力として返ってくる。カーソルを乗せるか、下のスライダーで荷重をかけてみてほしい。</p>
+  </div>
+
+  <div class="tech-stage">
+    <div class="hex-wrap">
+      <canvas id="hex-canvas" aria-label="HEX LATTICEソールの荷重シミュレーション" role="img"></canvas>
+      <div class="hex-hud mono">
+        <div><span>Load</span><strong id="hud-load">1.0×</strong></div>
+        <div><span>Peak compression</span><strong id="hud-comp">2.8 mm</strong></div>
+        <div><span>Energy return</span><strong id="hud-ret">71%</strong></div>
+      </div>
+    </div>
+    <div class="tech-controls">
+      <label for="load" class="mono">Impact load — body weight multiple</label>
+      <input type="range" id="load" min="0.5" max="3" step="0.1" value="1">
+      <div class="range-scale mono"><span>0.5× Walk</span><span>1.5× Run</span><span>3.0× Stair sprint</span></div>
+      <div class="tech-modes" role="tablist" aria-label="走行シーン">
+        <button role="tab" class="chip is-active" data-load="1.0" aria-selected="true">Walk</button>
+        <button role="tab" class="chip" data-load="1.6" aria-selected="false">City run</button>
+        <button role="tab" class="chip" data-load="2.4" aria-selected="false">Stairs</button>
+        <button role="tab" class="chip" data-load="3.0" aria-selected="false">Landing</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tech-pillars">
+    <article>
+      <p class="mono num">A</p>
+      <h3>Exo-Cage Upper</h3>
+      <p>TPU の外骨格がミッドフットを包み、横方向のブレを抑える。メッシュは 0.4 mm、必要な所だけ強く。</p>
+    </article>
+    <article>
+      <p class="mono num">B</p>
+      <h3>HEX LATTICE Midsole</h3>
+      <p>超臨界発泡の六角セル。セル壁の厚みを前足部 2.1 mm / 踵 2.6 mm と変え、着地から蹴り出しまでを一筆書きに。</p>
+    </article>
+    <article>
+      <p class="mono num">C</p>
+      <h3>Grip Lattice</h3>
+      <p>濡れた花崗岩の階段で検証したラバーパターン。角を立てたラグが段鼻をつかむ。</p>
+    </article>
+  </div>
+</section>
+
+<!-- ================= CONFIGURATOR ================= -->
+<section class="configure" id="configure">
+  <div class="section-head">
+    <p class="section-index mono">04 — Configure</p>
+    <h2 class="display">Make it<br>yours</h2>
+  </div>
+  <div class="cfg">
+    <div class="cfg-visual" id="cfg-visual">
+      <div class="cfg-model-tag mono" id="cfg-model-tag">RISE</div>
+      <div class="cfg-shoe" id="cfg-shoe"><!-- svg injected --></div>
+      <div class="cfg-floor" aria-hidden="true"></div>
+      <div class="cfg-callouts mono" aria-hidden="true">
+        <span class="co co-a">A · Exo-Cage</span>
+        <span class="co co-b">B · HEX LATTICE</span>
+        <span class="co co-c">C · Grip Lattice</span>
+      </div>
+    </div>
+    <form class="cfg-panel" id="cfg-form" novalidate>
+      <fieldset>
+        <legend class="mono">Model</legend>
+        <div class="seg" id="cfg-models"></div>
+      </fieldset>
+      <fieldset>
+        <legend class="mono">Colorway — <span id="cfg-color-name">Obsidian</span></legend>
+        <div class="swatches" id="cfg-colors"></div>
+      </fieldset>
+      <fieldset>
+        <legend class="mono">Size (cm) <button type="button" class="link-btn" id="size-guide-btn">サイズガイド</button></legend>
+        <div class="sizes" id="cfg-sizes"></div>
+        <p class="hint" id="size-hint">サイズを選んでください</p>
+      </fieldset>
+      <div class="cfg-summary">
+        <div>
+          <p class="cfg-name" id="cfg-name">STAIRLINE RISE</p>
+          <p class="cfg-meta mono" id="cfg-meta">Urban / Stair · 285 g · 8 mm drop</p>
+        </div>
+        <p class="cfg-price" id="cfg-price">¥26,400</p>
+      </div>
+      <button type="submit" class="btn btn-solid btn-block magnetic" id="add-btn">カートに追加</button>
+      <p class="fine">送料無料 · 30日間の試し履き返品OK · 東京・大阪は翌日配送</p>
+    </form>
+  </div>
+</section>
+
+<!-- ================= COMPARE ================= -->
+<section class="compare" id="compare">
+  <div class="section-head">
+    <p class="section-index mono">05 — Compare</p>
+    <h2 class="display small">Spec sheet</h2>
+  </div>
+  <div class="table-wrap">
+    <table class="spec-table" id="spec-table">
+      <thead><tr><th scope="col">Model</th><th scope="col">Use</th><th scope="col">Weight</th><th scope="col">Drop</th><th scope="col">Stack</th><th scope="col">Cushion</th><th scope="col">Price</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ================= LAB ================= -->
+<section class="lab" id="lab">
+  <div class="lab-media">
+    <img src="assets/stride.jpg" alt="ストライド中のランナーの脚と靴底" width="508" height="520" loading="lazy">
+    <img src="assets/city.jpg" alt="青空に伸びる都市の建物" width="288" height="385" loading="lazy">
+  </div>
+  <div class="lab-copy">
+    <p class="section-index mono">06 — Zürich Lab</p>
+    <h2 class="display">Tested on<br>real stairs</h2>
+    <p>試作は、ラボのトレッドミルでは終わらない。チューリッヒ旧市街の石段、東京の歩道橋、雨上がりの駅の階段。実際の街で 1,200 km 以上を走り込み、47 回の試作を経て RISE は完成した。</p>
+    <ul class="stats" id="stats">
+      <li><strong data-count="1200">0</strong><span>km field-tested</span></li>
+      <li><strong data-count="47">0</strong><span>prototypes</span></li>
+      <li><strong data-count="38">0</strong><span>hex cells per sole</span></li>
+      <li><strong data-count="71" data-suffix="%">0</strong><span>energy return</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= STORIES ================= -->
+<section class="stories" id="stories">
+  <div class="section-head">
+    <p class="section-index mono">07 — Stories</p>
+    <h2 class="display small">From the stairs</h2>
+  </div>
+  <div class="story-grid">
+    <article class="story story-wide">
+      <img src="assets/stairs.jpg" alt="朝の光が差すコンクリートの階段" width="760" height="180" loading="lazy">
+      <div class="story-body">
+        <p class="mono">Field note · 05:40 · Shibuya</p>
+        <h3>夜明け前の 312 段</h3>
+        <p>出勤前の30分を、駅前の階段だけで組み立てる。上りは前足部、下りは踵。HEX LATTICE の硬さの違いが一番よく分かる時間帯。</p>
+      </div>
+    </article>
+    <article class="story">
+      <img src="assets/detail.jpg" alt="スニーカーのサイドディテール" width="618" height="420" loading="lazy">
+      <div class="story-body">
+        <p class="mono">Design · Exo-Cage</p>
+        <h3>線を一本ずつ減らした外骨格</h3>
+        <p>最初の試作には 21 本の補強ラインがあった。残したのは 9 本。</p>
+      </div>
+    </article>
+    <article class="story story-quote">
+      <blockquote>
+        <p>“階段を見つけると、遠回りしてでも上りたくなる。そういう靴を作りたかった。”</p>
+        <footer class="mono">Lead designer, STAIRLINE Zürich</footer>
+      </blockquote>
+    </article>
+  </div>
+</section>
+
+<!-- ================= JOIN ================= -->
+<section class="join" id="join">
+  <h2 class="display">Run the<br>first stair</h2>
+  <p>新作の先行案内と、都市ランのルートを月1回お届けします。</p>
+  <form class="join-form" id="join-form" novalidate>
+    <label for="email" class="sr-only">メールアドレス</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+    <button type="submit" class="btn btn-solid magnetic">登録する</button>
+  </form>
+  <p class="form-msg" id="join-msg" role="status" aria-live="polite"></p>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-mark">STAIRLINE<sup>®</sup></div>
+  <div class="footer-cols">
+    <div><p class="mono">Shop</p><a href="#lineup">Shoes</a><a href="#configure">Configure</a><a href="#compare">Compare</a></div>
+    <div><p class="mono">Brand</p><a href="#technology">Technology</a><a href="#lab">Zürich Lab</a><a href="#stories">Stories</a></div>
+    <div><p class="mono">Support</p><a href="#configure">サイズガイド</a><a href="#join">ニュースレター</a><a href="#top">返品・交換</a></div>
+  </div>
+  <div class="footer-base mono">
+    <span>Urban Engineering · Designed in Zürich</span>
+    <span>© 2026 STAIRLINE (concept site)</span>
+  </div>
+</footer>
+
+<!-- ================= CART DRAWER ================= -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="カート" aria-hidden="true">
+  <div class="drawer-head">
+    <p class="display tiny">Cart</p>
+    <button class="icon-btn" id="cart-close" aria-label="カートを閉じる">✕</button>
+  </div>
+  <div class="drawer-body" id="cart-items"></div>
+  <div class="drawer-foot">
+    <div class="ship-bar"><span id="ship-fill"></span></div>
+    <p class="ship-msg mono" id="ship-msg">送料無料</p>
+    <div class="subtotal"><span>Subtotal</span><strong id="cart-subtotal">¥0</strong></div>
+    <button class="btn btn-solid btn-block" id="checkout-btn">チェックアウトへ</button>
+  </div>
+</aside>
+
+<!-- ================= MODAL ================= -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+  <div class="modal-card">
+    <button class="icon-btn modal-x" id="modal-close" aria-label="閉じる">✕</button>
+    <h3 id="modal-title" class="display tiny">Size guide</h3>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<div class="toast mono" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
